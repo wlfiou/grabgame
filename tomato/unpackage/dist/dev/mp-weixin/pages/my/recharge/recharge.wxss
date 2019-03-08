@@ -1,0 +1,74 @@
+
+.t-common-font {
+	font-weight: bold;
+}
+.content {
+	padding: 0rpx 25rpx;
+}
+.uni-list-cell-pd {
+	padding: 11px 15px 11px 0px;
+}
+.yinlian image {
+	width: 60rpx;
+	position: absolute;
+	left: 25rpx;
+	top: 30rpx;
+	z-index: 2;
+}
+.content>._p {
+	color: #FF3333;
+}
+.tongdao ._span {
+	position: relative;
+	top: 6rpx;
+}
+.choose-price {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.choose-price view {
+	width: 200rpx;
+	height: 120rpx;
+	text-align: center;
+	line-height: 120rpx;
+	color: #fc3a39;
+	border: 1px solid #fc3a39;
+	border-radius: 15rpx;
+	font-size: 18px;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+.commitBtn {
+	background: #FC3A39;
+	color: #fff;
+}
+.actualPrice {
+	font-size: 28px;
+	color: #fc3a39;
+}
+.uni-form-item {
+	position: relative;
+	background: #fff;
+}
+.bradius {
+	border-radius: 10rpx;
+	border: 1px solid #eee;
+}
+.choose-price .active {
+	background: #fc3a39;
+	color: #fff;
+}
+.title {
+	padding: 10rpx 0rpx;
+}
+

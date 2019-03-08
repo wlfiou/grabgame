@@ -1,0 +1,1 @@
+<template name="1f8b55ca"><view class="_view 1f8b55ca t-common-font m-all"><view class="_view 1f8b55ca rm-content m-content-one"><image src="../../../static/img/ic_chats_redpsmall_icon.png" mode="aspectFill" class="_image 1f8b55ca"></image><text class="_text 1f8b55ca">恭喜{{username}}中奖，奖励{{message.value}}元</text></view></view></template>

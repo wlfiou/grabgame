@@ -1,0 +1,108 @@
+
+.ray-top-view1{
+	height: 30rpx;
+	background-color:#fc4b2d;
+}
+.ray-top-view2{
+	height: 100rpx;
+	background-color:#fc4b2d;
+	border-radius: 50rpx;
+	margin-top:-50rpx
+}
+.list-avator {
+	height: 80rpx;
+}
+.list-avator image {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 40rpx;
+}
+.t-cell {
+	height: 140rpx;
+	font-family: Cursive;
+	font-weight: bold;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.cell-textinfo {
+	margin-left: 10rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.cell-textinfo view:first-child {
+	font-size: 40rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	margin-bottom: 10rpx;
+}
+.cell-textinfo view:last-child {
+	font-size: 20rpx;
+	height: 40rpx;
+	color: #999999;
+}
+.cell-right {
+	width: 150rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-flex: 3;
+	-webkit-flex-grow: 3;
+	    -ms-flex-positive: 3;
+	        flex-grow: 3;
+}
+.cell-right view:first-child {
+	margin-right: 20rpx;
+}
+.cell-right view:last-child {
+	line-height: 80rpx;
+	color: #FC4B2D;
+}
+
+
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.avator {
+	margin-top: -40rpx;
+	height: 80rpx;
+	text-align: center;
+}
+.avator image {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 40rpx;
+}
+.top .text {
+	text-align: center;
+	font-family: Cursive;
+	font-weight: bold;
+}
+.list-header {
+	font-family: Cursive;
+	font-weight: bold;
+	color: #999999;
+	border-bottom-color: 1rpx solid #999999;
+	background-color: #FFFFFF;
+	padding-left: 20rpx;
+}
+

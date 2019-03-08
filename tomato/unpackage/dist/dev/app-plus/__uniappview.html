@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"金辉","entryPagePath":"pages/LaunchPage/LaunchPage.html","page":{"pages/LaunchPage/LaunchPage.html":{"window":{"titleNView":false}},"pages/login/login/login.html":{"window":{"navigationBarTitleText":"烂番茄","titleNView":false}},"pages/index/index.html":{"window":{"navigationBarTitleText":"群组","titleNView":{"splitLine":{"color":"#d8d8d8"},"buttons":[{"text":"","fontSrc":"/static/iconfont.ttf","fontSize":"22px","float":"right"}]}}},"pages/my/my.html":{"window":{"navigationBarTitleText":"个人中心","enablePullDownRefresh":false,"titleNView":false}},"pages/ray/gameInfo/gameInfo.html":{"window":{"navigationBarTitleText":"游戏规则"}},"pages/ray/rayGameList/rayGameList.html":{"window":{"navigationBarTitleText":"扫雷游戏","titleNView":{"splitLine":{"color":"#d8d8d8"}}}},"pages/ray/rayGame/rayGame.html":{"window":{"titleNView":{"splitLine":{"color":"#d8d8d8"}}}},"pages/ray/rayRecords/rayRecords.html":{"window":{"navigationBarBackgroundColor":"#fb4b2d","navigationBarTitleText":"红包记录","navigationBarTextStyle":"white","titleNView":false}},"pages/ray/sendRnvelope/sendRnvelope.html":{"window":{"navigationBarTitleText":"发红包","titleNView":{"splitLine":{"color":"#d8d8d8"}}}},"pages/ray/rayRecords/myRedRecords/myRedRecords.html":{"window":{"navigationBarBackgroundColor":"#fb4b2d","navigationBarTitleText":"红包记录","navigationBarTextStyle":"white"}},"pages/ray/notify/notify.html":{"window":{"navigationBarTitleText":"通知","titleNView":{"splitLine":{"color":"#d8d8d8"}}}},"pages/ray/notify/messages.html":{"window":{"navigationBarTitleText":"通知","titleNView":{"splitLine":{"color":"#d8d8d8"}}}},"pages/ray/notify/notifyDetail/notifyDetail.html":{"window":{"navigationBarTitleText":"通知详情","titleNView":{"splitLine":{"color":"#d8d8d8"}}}},"pages/login/findPass/findPass.html":{"window":{"navigationBarTitleText":"找回密码"}},"pages/login/quckLogin/quckLogin.html":{"window":{"navigationBarTitleText":"快速登录"}},"pages/login/register/register.html":{"window":{"navigationBarTitleText":"注册"}},"pages/my/setting/setting.html":{"window":{"navigationBarTitleText":"设 置"}},"pages/my/personal/personal.html":{"window":{"navigationBarTitleText":"个人资料","titleNView":false}},"pages/my/capitalRecord/capitalRecord.html":{"window":{"navigationBarTitleText":"资金记录","navigationBarBackgroundColor":"#fc3a39","navigationBarTextStyle":"white","titleNView":{"buttons":[{"text":"红包记录","fontSize":"14","width":"88px"}]}}},"pages/my/gainRecord/gainRecord.html":{"window":{"navigationBarTitleText":"收益记录","navigationBarBackgroundColor":"#fc3a39","navigationBarTextStyle":"white"}},"pages/my/cash/cash.html":{"window":{"navigationBarTitleText":"提现"}},"pages/my/recharge/recharge.html":{"window":{"navigationBarTitleText":"充值"}},"pages/my/recharge/webPay.html":{"window":{"navigationBarTitleText":"支付中心"}},"pages/my/myBankCard/myBankCard.html":{"window":{"navigationBarTitleText":"我的银行卡"}},"pages/my/myRecommend/myRecommend.html":{"window":{"navigationBarTitleText":"我的推荐"}},"pages/my/myAlipay/myAlipay.html":{"window":{"navigationBarTitleText":"我的支付宝"}},"pages/my/promotionPoster/promotionPoster.html":{"window":{"navigationBarTitleText":"推广海报"}},"pages/my/serviceCenter/serviceCenter.html":{"window":{"navigationBarTitleText":"客服中心"}},"pages/my/setting/security/security.html":{"window":{"navigationBarTitleText":"账户安全"}},"pages/my/setting/security/phoneNum.html":{"window":{"navigationBarTitleText":"变更手机"}},"pages/my/setting/security/loginPwd.html":{"window":{"navigationBarTitleText":"忘记密码"}},"pages/my/setting/security/payPwd.html":{"window":{"navigationBarTitleText":"重置支付密码"}},"pages/my/setting/notify.html":{"window":{"navigationBarTitleText":"新消息通知"}},"pages/my/setting/security/freepay.html":{"window":{"navigationBarTitleText":"设置免密支付"}},"pages/my/accountForm/accountForm.html":{"window":{"navigationBarTitleText":"资料填写"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#8a8a8a","selectedColor":"#d81e06","backgroundColor":"","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"群组","iconPath":"static/img/group_unselect.png","selectedIconPath":"static/img/group_select.png"},{"pagePath":"pages/my/my.html","text":"我的","iconPath":"static/img/personal_unselect.png","selectedIconPath":"static/img/personal_select.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/LaunchPage/LaunchPage","pages/login/login/login","pages/index/index","pages/my/my","pages/ray/gameInfo/gameInfo","pages/ray/rayGameList/rayGameList","pages/ray/rayGame/rayGame","pages/ray/rayRecords/rayRecords","pages/ray/sendRnvelope/sendRnvelope","pages/ray/rayRecords/myRedRecords/myRedRecords","pages/ray/notify/notify","pages/ray/notify/messages","pages/ray/notify/notifyDetail/notifyDetail","pages/login/findPass/findPass","pages/login/quckLogin/quckLogin","pages/login/register/register","pages/my/setting/setting","pages/my/personal/personal","pages/my/capitalRecord/capitalRecord","pages/my/gainRecord/gainRecord","pages/my/cash/cash","pages/my/recharge/recharge","pages/my/recharge/webPay","pages/my/myBankCard/myBankCard","pages/my/myRecommend/myRecommend","pages/my/myAlipay/myAlipay","pages/my/promotionPoster/promotionPoster","pages/my/serviceCenter/serviceCenter","pages/my/setting/security/security","pages/my/setting/security/phoneNum","pages/my/setting/security/loginPwd","pages/my/setting/security/payPwd","pages/my/setting/notify","pages/my/setting/security/freepay","pages/my/accountForm/accountForm"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

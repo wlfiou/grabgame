@@ -1,0 +1,2 @@
+<import src="./rayRecords.vue.wxml" />
+    <template is="14bf1575" data="{{ ...$root['0'], $root }}"/>

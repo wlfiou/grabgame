@@ -1,0 +1,9 @@
+<import src="/components/uni-popup.vue.wxml" />
+<import src="/components/neil-modal.vue.wxml" />
+
+<template name="7ee768cc-default-7ee768cc-0"><view class="_view 7ee768cc uni-flex uni-row pop-user-info" style="justify-content: space-between;"><image class="_image 7ee768cc pop-avator" mode="widthFix" src="{{avator}}"></image><view class="_view 7ee768cc account-msg"><view style="color: #000;font-size: 14px;" class="_p 7ee768cc">{{nickName}}</view><view class="_p 7ee768cc">电话:{{this.user.mobile}}</view><view class="_p 7ee768cc">ID:{{this.user.user_id}}</view></view></view><view class="_view 7ee768cc uni-center"><image class="_image 7ee768cc uni-common-mt pop-user-pic" mode="widthFix" src="{{qrcodeUrl}}"></image></view><view class="_view 7ee768cc uni-flex uni-row uni-center pop-btn-box"><view class="_view 7ee768cc text" bindtap="handleProxy" data-eventid="{{'7ee768cc-0'}}" data-comkey="{{$k}}">保存到手机</view></view></template>
+
+<template name="5665d181-default-5665d181-0"><view class="_view 5665d181 input-view"><view class="_view 5665d181 input-name"><input value="{{content}}" bindinput="handleProxy" type="text" placeholder="请输入昵称" data-eventid="{{'5665d181-3'}}" data-comkey="{{$k}}" class="_input 5665d181" /></view></view></template>
+
+<template name="7cd5b22a-default-7cd5b22a-0"><view class="_view 7cd5b22a input-view"><view class="_view 7cd5b22a input-name"><input value="{{pass}}" bindinput="handleProxy" type="text" placeholder="请输入房间密码" data-eventid="{{'7cd5b22a-1'}}" data-comkey="{{$k}}" class="_input 7cd5b22a" /></view></view></template>
+

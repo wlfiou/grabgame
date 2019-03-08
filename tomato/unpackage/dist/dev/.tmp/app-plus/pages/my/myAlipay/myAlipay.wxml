@@ -1,0 +1,2 @@
+<import src="./myAlipay.vue.wxml" />
+    <template is="1a1fe241" data="{{ ...$root['0'], $root }}"/>

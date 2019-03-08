@@ -1,0 +1,443 @@
+
+.content-top{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.content-top-left{
+	margin: 20rpx;
+	width: 50rpx;
+	height: 70rpx;
+}
+.content-top-left image{
+	width: 100%;
+	height: 100%;
+}
+.content-top-right{
+	
+	font-size: 25rpx;
+	padding: 10rpx;
+}
+.content-bottom{
+	background-color: white;
+	color: #999999;
+	font-size: 20rpx;
+	border-bottom-left-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	padding-left: 10rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*****
+	下面空样式为了解决计算
+	显示消息页面的整体高度
+	*****/
+.m-all{
+}
+.m-content-one{
+}
+.m-item {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		margin-top: 20rpx;
+		/* margin-bottom: 20upx; */
+}
+.m-left {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		width: 120rpx;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: start;
+		-webkit-align-items: flex-start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+		border-radius: 60rpx;
+}
+.m-content {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		word-break: break-all;
+}
+.m-right {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		width: 120rpx;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: start;
+		-webkit-align-items: flex-start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+}
+.head_icon {
+		width: 80rpx;
+		height: 80rpx;
+		border-radius: 40rpx;
+}
+.m-content-head {
+		position: relative;
+}
+.m-content-head-right {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		-webkit-justify-content: flex-end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+}
+.m-content-head-home {
+		text-align: left;
+		background: #F89439;
+		width: 400rpx;
+		height: 150rpx;
+ 		/* border: 1px #F89439 solid; */
+		border-radius: 15rpx;
+		/* padding: 20upx; */
+		color: white;
+		height: 150rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.m-content-head-home:before {
+		border: 15rpx solid transparent;
+		border-right: 15rpx solid #F89439;
+		top: 20rpx;
+		left: -26rpx;
+		width: 0;
+		height: 0;
+		position: absolute;
+		content: ' '
+}
+.m-content-head-customer {
+		/* border: 1upx white solid; */
+		background: #F89439;
+		border-radius: 15rpx;
+		color: white;
+		width: 400rpx;
+		height: 150rpx;
+		/* padding: 20upx; */
+}
+.m-content-head-customer:after {
+		border: 15rpx solid transparent;
+		border-left: 15rpx solid #F89439;
+		top: 20rpx;
+		right: -26rpx;
+		width: 0;
+		height: 0;
+		position: absolute;
+		content: ' '
+}
+.m-content-name{
+		color: #999999;
+		font-size: 30rpx;
+}
+.m-content-name-right{
+		text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*****
+	下面空样式为了解决计算
+	显示消息页面的整体高度
+	*****/
+.m-all{
+}
+.m-content-one{
+}
+.rm-content{
+	color: #000000;
+	font-size: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	background: #BEBEBE;
+	margin: 20rpx 120rpx 20rpx 120rpx;
+	height: 60rpx;
+	border-radius: 30rpx;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.rm-content image{
+	margin-left: 20rpx;
+	height: 50rpx;
+	width: 30rpx;
+}
+
+
+
+.uni-mask {
+	position: fixed;
+	z-index: 998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .3);
+}
+.uni-banner {
+	width: 60%;
+	position: fixed;
+	left: 50%;
+	top: 40%;
+	border-radius: 10rpx;
+	z-index: 999;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+
+.uni-column {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding-bottom: 200rpx;
+}
+.message-space {
+	margin-top: 40rpx;
+}
+.foot {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	position: fixed;
+	background: #FFFFFF;
+	width: 100%;
+	height: 90rpx;
+	min-height: 90rpx;
+	left: 0rpx;
+	bottom: 0rpx;
+	overflow: hidden;
+	font-family: Cursive;
+	font-size: 30rpx;
+	color: black;
+	border-top: 1rpx solid #D9D9D9;
+}
+.foot .foot-left {
+	line-height: 70rpx;
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+	border: 1rpx solid #D9D9D9;
+	border-radius: 15rpx;
+	margin: 10rpx 20rpx;
+}
+.foot .foot-right {
+	line-height: 70rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+	border: 1rpx solid #D9D9D9;
+	border-radius: 15rpx;
+	margin: 10rpx 20rpx;
+	margin-left: 0;
+}
+

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "群组",
+  "titleNView": {
+    "splitLine": {
+      "color": "#d8d8d8"
+    },
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px",
+        "float": "right"
+      }
+    ]
+  }
+}

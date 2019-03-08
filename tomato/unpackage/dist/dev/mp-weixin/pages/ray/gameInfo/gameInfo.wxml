@@ -1,0 +1,2 @@
+<import src="./gameInfo.vue.wxml" />
+    <template is="5d83b335" data="{{ ...$root['0'], $root }}"/>

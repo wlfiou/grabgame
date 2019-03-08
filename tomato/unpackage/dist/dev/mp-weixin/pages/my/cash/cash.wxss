@@ -1,0 +1,53 @@
+
+.tixian-tit {
+	position: absolute;
+	top: 14px;
+	left: 12px;
+	z-index: 2;
+}
+.t-common-font {
+	font-weight: bold;
+}
+.content {
+	padding: 0 30rpx;
+}
+.balance ._p {
+	font-size: 14px;
+	color: #A0A0A0;
+}
+.commitBtn {
+	background: #fc3a39;
+	color: #fff;
+}
+.paytype .pays ._span {
+	color: #000;
+	font-size: 14px;
+}
+.pays image {
+	width: 30rpx;
+	position: relative;
+	top: 6rpx;
+	margin-right: 10rpx;
+}
+.paytype {
+	height: 25px;
+	padding: 7px 12px;
+	background: #FFF;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.paytype .text:last-child {
+	font-size: 12px;
+	line-height: 25px;
+	color: #6F6F6F;
+}
+.bradius {
+	border-radius: 10rpx;
+	border: 1px solid #eee;
+}
+.active {
+	border-color: #fc3a39;
+}
+

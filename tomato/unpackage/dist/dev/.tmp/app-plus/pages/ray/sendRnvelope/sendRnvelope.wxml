@@ -1,0 +1,2 @@
+<import src="./sendRnvelope.vue.wxml" />
+    <template is="7f890795" data="{{ ...$root['0'], $root }}"/>

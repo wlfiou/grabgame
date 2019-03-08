@@ -1,0 +1,72 @@
+
+.t-common-font {
+	font-weight: bold;
+}
+.my-money {
+	background: #fc3a39;
+	color: #fff;
+}
+.nullPic {
+	width: 250rpx;
+}
+.showNull {
+	width: 100%;
+	position: fixed;
+	bottom: 25%;
+	left: 0;
+}
+.showNull ._p {
+	color: #666;
+}
+.t-cell {
+	height: 140rpx;
+	font-weight: bold;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.cell-textinfo {
+	margin-left: 10rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.cell-textinfo view:first-child {
+	font-size: 40rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	margin-bottom: 10rpx;
+}
+.cell-textinfo view:last-child {
+	font-size: 20rpx;
+	height: 40rpx;
+	color: #999999;
+}
+.cell-right {
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	text-align: right;
+	/* justify-content: flex-end; */
+	/* flex-grow: 3; */
+}
+.cell-right view:first-child {
+	color: #FC4B2D;
+	font-weight: bold;
+	font-size: 40rpx;
+}
+.cell-right view:last-child {
+
+	color: #999999;
+}
+

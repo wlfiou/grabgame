@@ -1,0 +1,14 @@
+
+.t-common-font {
+	font-weight: bold;
+	padding: 0rpx 25rpx;
+}
+.addCard{
+	padding: 20rpx 0rpx;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #BEBEBE;
+	border-radius: 15rpx;
+	font-size: 16px;
+}
+

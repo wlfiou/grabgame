@@ -1,0 +1,26 @@
+
+swiper{
+		height: 100vh;
+}
+.img-skip{
+		width: 2.5em;
+		height: 1.6em;
+		position: absolute;
+		z-index: 100; 
+		right: 15rpx;
+		top: 30px; /*隐藏导航条的高度为44px*/
+		background-color: #000000;
+		text-align: center;
+		border-radius: 15%;
+		opacity: 0.4;
+}
+.img-skip text{
+		font-size: 0.8em;
+		line-height: 1.6em;
+		color: #FFFFFF;
+}
+.img-view{
+		width: 100%;
+		height: 100%;
+}
+

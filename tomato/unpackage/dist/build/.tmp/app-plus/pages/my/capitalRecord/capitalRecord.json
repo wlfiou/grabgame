@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "资金记录",
+  "navigationBarBackgroundColor": "#fc3a39",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "红包记录",
+        "fontSize": "14",
+        "width": "88px"
+      }
+    ]
+  }
+}

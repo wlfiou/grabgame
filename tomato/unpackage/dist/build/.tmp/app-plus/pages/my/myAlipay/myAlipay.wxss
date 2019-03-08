@@ -1,0 +1,33 @@
+
+.t-common-font {
+	font-weight: bold;
+	padding: 0rpx 25rpx;
+}
+.addCard {
+	padding: 20rpx 0rpx;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #BEBEBE;
+	border-radius: 15rpx;
+	font-size: 16px;
+}
+.alipay {
+	background: #fc3a39;
+	border-top-right-radius: 20rpx;
+	border-top-left-radius: 20rpx;
+	color: #fff;
+	padding: 15rpx 25rpx;
+	background: -webkit-gradient(linear, right top, left top, from(rgba(254, 75, 32, 0.4)), to(rgba(254, 75, 32, 1)));
+	background: -o-linear-gradient(right, rgba(254, 75, 32, 0.4), rgba(254, 75, 32, 1));
+	background: linear-gradient(to left, rgba(254, 75, 32, 0.4), rgba(254, 75, 32, 1))
+}
+.uni-title {
+	font-size: 14px;
+}
+uni-page {
+	height: auto;
+}
+uni-page-head~uni-page-wrapper {
+	height: auto;
+}
+

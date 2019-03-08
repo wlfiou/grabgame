@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/LaunchPage/LaunchPage",
+    "pages/login/login/login",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/ray/gameInfo/gameInfo",
+    "pages/ray/rayGameList/rayGameList",
+    "pages/ray/rayGame/rayGame",
+    "pages/ray/rayRecords/rayRecords",
+    "pages/ray/sendRnvelope/sendRnvelope",
+    "pages/ray/rayRecords/myRedRecords/myRedRecords",
+    "pages/ray/notify/notify",
+    "pages/ray/notify/notifyDetail/notifyDetail",
+    "pages/login/findPass/findPass",
+    "pages/login/quckLogin/quckLogin",
+    "pages/login/register/register",
+    "pages/my/setting/setting",
+    "pages/my/personal/personal",
+    "pages/my/capitalRecord/capitalRecord",
+    "pages/my/gainRecord/gainRecord",
+    "pages/my/cash/cash",
+    "pages/my/recharge/recharge",
+    "pages/my/recharge/webPay",
+    "pages/my/myBankCard/myBankCard",
+    "pages/my/myRecommend/myRecommend",
+    "pages/my/myAlipay/myAlipay",
+    "pages/my/promotionPoster/promotionPoster",
+    "pages/my/serviceCenter/serviceCenter",
+    "pages/my/setting/security/security",
+    "pages/my/setting/security/phoneNum",
+    "pages/my/setting/security/loginPwd",
+    "pages/my/setting/security/payPwd",
+    "pages/my/setting/notify",
+    "pages/my/setting/security/freepay"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "群组",
+        "iconPath": "static/img/group_unselect.png",
+        "selectedIconPath": "static/img/group_select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/img/personal_unselect.png",
+        "selectedIconPath": "static/img/personal_select.png"
+      }
+    ]
+  }
+}

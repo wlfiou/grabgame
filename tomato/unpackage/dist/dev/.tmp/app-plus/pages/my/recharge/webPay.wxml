@@ -1,0 +1,2 @@
+<import src="./webPay.vue.wxml" />
+    <template is="330af9ee" data="{{ ...$root['0'], $root }}"/>

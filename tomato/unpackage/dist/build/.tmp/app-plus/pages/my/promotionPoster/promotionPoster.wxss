@@ -1,0 +1,69 @@
+
+page,
+page {
+	width: 100%;
+	height: 100%;
+}
+.r-image-c{
+	width: 100%;
+	height: 100%;
+}
+.t-common-font{font-weight: bold;}
+.page {
+	width: 100%;
+	height: 100%;
+	/* background: #fff url(../../../static/img/promotion_poster_bg.png) no-repeat center; */
+	background-size: 100% 100%;
+}
+.pic-bott {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 90%;
+}
+.code-box {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 25%;
+	top: 0;
+	margin: auto;
+	width: 80%;
+	height: 580rpx;
+	background: #fff;
+	border: 1px solid #fc3a39;
+	border-radius: 20rpx;
+}
+.code-box>._p {
+	position: absolute;
+	left: 0;
+	bottom: -60rpx;
+}
+.code-pic{
+	width: 280rpx;
+	height: 280rpx;
+	margin: 30rpx auto 0rpx;
+	padding: 20rpx;
+	border: 1px solid #BEBEBE;
+	border-radius: 20rpx;
+}
+.code-pic image{
+	width: 280rpx;
+}
+.code-pic ._p{margin-top: 20rpx;}
+.tomato-pic {
+	width: 200rpx;
+	height: 200rpx;
+	margin-top: -15%;
+}
+.tit-box ._p{
+	font-size: 20px;
+	line-height: 1;
+	margin-top: -10rpx;
+}
+._p {
+	width: 100%;
+	text-align: center;
+}
+

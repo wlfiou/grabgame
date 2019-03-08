@@ -1,0 +1,1 @@
+<template name="7149cc63"><view class="_view 7149cc63 page t-common-font"><image class="_image 7149cc63 r-image-c" src="{{image}}" mode="aspectFill" bindlongtap="handleProxy" data-eventid="{{'7149cc63-0'}}" data-comkey="{{$k}}"></image></view></template>

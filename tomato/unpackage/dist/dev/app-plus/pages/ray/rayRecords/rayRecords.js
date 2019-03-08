@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"ray-top-view1{ height: ",[0,30],"; background-color:#fc4b2d; }\n.",[1],"ray-top-view2{ height: ",[0,100],"; background-color:#fc4b2d; border-radius: ",[0,50],"; margin-top:",[0,-50]," }\n.",[1],"list-avator { height: ",[0,80],"; }\n.",[1],"list-avator wx-image { width: ",[0,80],"; height: ",[0,80],"; border-radius: ",[0,40],"; }\n.",[1],"t-cell { height: ",[0,140],"; font-weight: bold; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; }\n.",[1],"cell-textinfo { margin-left: ",[0,10],"; height: ",[0,80],"; line-height: ",[0,80],"; }\n.",[1],"cell-textinfo wx-view:first-child { font-size: ",[0,40],"; height: ",[0,40],"; line-height: ",[0,40],"; margin-bottom: ",[0,10],"; color: #999999; }\n.",[1],"cell-textinfo wx-view:last-child { font-size: ",[0,20],"; height: ",[0,40],"; color: #999999; }\n.",[1],"cell-right { width: ",[0,150],"; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-flex: 3; -webkit-flex-grow: 3; -ms-flex-positive: 3; flex-grow: 3; }\n.",[1],"cell-right wx-view:first-child { margin-right: ",[0,20],"; }\n.",[1],"cell-right wx-view:last-child { line-height: ",[0,80],"; color: #FC4B2D; }\n.",[1],"top { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }\n.",[1],"avator { margin-top: ",[0,-40],"; height: ",[0,80],"; text-align: center; }\n.",[1],"avator wx-image { width: ",[0,80],"; height: ",[0,80],"; border-radius: ",[0,40],"; }\n.",[1],"top .",[1],"text { text-align: center; font-weight: bold; }\n.",[1],"list-header { font-weight: bold; color: #999999; border-bottom-color: ",[0,1]," solid #999999; background-color: #FFFFFF; padding-left: ",[0,20],"; }\n",],undefined,{path:"./pages/ray/rayRecords/rayRecords.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ray/rayRecords/rayRecords.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

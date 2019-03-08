@@ -1,0 +1,325 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/LaunchPage/LaunchPage",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/login/login",
+			"style": {
+				"navigationBarTitleText": "烂番茄",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "群组",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#d8d8d8"
+						},
+						"buttons": [{
+							"text": "\ue605",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/ray/gameInfo/gameInfo",
+			"style": {
+				"navigationBarTitleText": "游戏规则"
+			}
+		},
+		{
+			"path": "pages/ray/rayGameList/rayGameList",
+			"style": {
+				"navigationBarTitleText": "扫雷游戏",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#d8d8d8"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ray/rayGame/rayGame",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#d8d8d8"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ray/rayRecords/rayRecords",
+			"style": {
+				"navigationBarBackgroundColor": "#fb4b2d",
+				"navigationBarTitleText": "红包记录",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/ray/sendRnvelope/sendRnvelope",
+			"style": {
+				"navigationBarTitleText": "发红包",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#d8d8d8"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ray/rayRecords/myRedRecords/myRedRecords",
+			"style": {
+				"navigationBarBackgroundColor": "#fb4b2d",
+				"navigationBarTitleText": "红包记录",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/ray/notify/notify",
+			"style": {
+				"navigationBarTitleText": "通知",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#d8d8d8"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ray/notify/messages",
+			"style": {
+				"navigationBarTitleText": "通知",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#d8d8d8"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ray/notify/notifyDetail/notifyDetail",
+			"style": {
+				"navigationBarTitleText": "通知详情",
+				"app-plus": {
+					"titleNView": {
+						"splitLine": {
+							"color": "#d8d8d8"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/findPass/findPass",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/login/quckLogin/quckLogin",
+			"style": {
+				"navigationBarTitleText": "快速登录"
+			}
+		},
+		{
+			"path": "pages/login/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/my/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设 置"
+			}
+		},
+		{
+			"path": "pages/my/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/capitalRecord/capitalRecord",
+			"style": {
+				"navigationBarTitleText": "资金记录",
+				"navigationBarBackgroundColor": "#fc3a39",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "红包记录",
+								"fontSize": "14",
+								"width": "88px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/gainRecord/gainRecord",
+			"style": {
+				"navigationBarTitleText": "收益记录",
+				"navigationBarBackgroundColor": "#fc3a39",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/my/cash/cash",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/my/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/my/recharge/webPay",
+			"style": {
+				"navigationBarTitleText": "支付中心"
+			}
+		},
+		{
+			"path": "pages/my/myBankCard/myBankCard",
+			"style": {
+				"navigationBarTitleText": "我的银行卡"
+			}
+		},
+		{
+			"path": "pages/my/myRecommend/myRecommend",
+			"style": {
+				"navigationBarTitleText": "我的推荐"
+			}
+		},
+		{
+			"path": "pages/my/myAlipay/myAlipay",
+			"style": {
+				"navigationBarTitleText": "我的支付宝"
+			}
+		},
+		{
+			"path": "pages/my/promotionPoster/promotionPoster",
+			"style": {
+				"navigationBarTitleText": "推广海报"
+			}
+		},
+		{
+			"path": "pages/my/serviceCenter/serviceCenter",
+			"style": {
+				"navigationBarTitleText": "客服中心"
+			}
+		},
+		{
+			"path": "pages/my/setting/security/security",
+			"style": {
+				"navigationBarTitleText": "账户安全"
+			}
+		},
+		{
+			"path": "pages/my/setting/security/phoneNum",
+			"style": {
+				"navigationBarTitleText": "变更手机"
+			}
+		},
+		{
+			"path": "pages/my/setting/security/loginPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/my/setting/security/payPwd",
+			"style": {
+				"navigationBarTitleText": "重置支付密码"
+			}
+		},
+		{
+			"path": "pages/my/setting/notify",
+			"style": {
+				"navigationBarTitleText": "新消息通知"
+			}
+		},
+		{
+			"path": "pages/my/setting/security/freepay",
+			"style": {
+				"navigationBarTitleText": "设置免密支付"
+			}
+		},
+		{
+			"path": "pages/my/accountForm/accountForm",
+			"style": {
+				"navigationBarTitleText": "资料填写"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#d81e06",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "群组",
+				"iconPath": "static/img/group_unselect.png",
+				"selectedIconPath": "static/img/group_select.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/img/personal_unselect.png",
+				"selectedIconPath": "static/img/personal_select.png"
+			}
+		]
+	}
+}

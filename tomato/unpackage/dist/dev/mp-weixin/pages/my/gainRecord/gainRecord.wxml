@@ -1,0 +1,2 @@
+<import src="./gainRecord.vue.wxml" />
+    <template is="7d0f72c1" data="{{ ...$root['0'], $root }}"/>

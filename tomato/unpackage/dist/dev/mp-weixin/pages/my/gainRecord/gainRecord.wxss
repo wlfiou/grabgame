@@ -1,0 +1,29 @@
+
+.t-common-font {
+	font-weight: bold;
+}
+.my-money {
+	background: #fc3a39;
+	color: #fff;
+}
+.nullPic {
+	width: 250rpx;
+}
+.showNull {
+	margin-top: 300rpx;
+}
+.showNull ._p {
+	color: #666;
+}
+.revenueList {
+	height: 100rpx;
+	padding: 1%;
+	margin-bottom: 10rpx;
+}
+.avatar {
+	width: 80rpx;
+	height: 80rpx;
+	margin: 10rpx 10rpx 0rpx 0rpx;
+	border-radius: 50%;
+}
+

@@ -1,0 +1,104 @@
+
+.container{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.top{
+	padding-top: 100rpx;
+    text-align: center;
+}
+.top image{
+	height: 200rpx;
+	width: 200rpx;
+}
+.username{
+	border-radius: 20rpx;
+	height: 100rpx;
+	margin: 20rpx 40rpx;
+	background-color: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	line-height: 80rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.username text{
+	margin-left: 10rpx;
+	font-weight: bold;
+	color: #FC4B2D;
+	height: 80rpx;
+}
+.username ._input{
+	padding-bottom: 15rpx;
+	padding-top: 19rpx;
+	padding-left: 10rpx;
+	font-weight: bold;
+	-webkit-box-flex: 0.8;
+	-webkit-flex-grow: 0.8;
+	    -ms-flex-positive: 0.8;
+	        flex-grow: 0.8;
+}
+.clickfocus{
+	border: 2rpx solid #ca808c;
+}
+.icon{
+	height: 40rpx;
+	width: 40rpx;
+}
+.icon image{
+	height: 40rpx;
+	width: 40rpx;
+}
+.login{
+	margin: 40rpx;
+	height: 100rpx;
+}
+.login ._button:first-child{
+	height:100rpx;
+	line-height: 100rpx;
+	background-color: #F76260;
+}
+.login ._button:last-child{
+	height:100rpx;
+	line-height: 100rpx;
+	background-color: #FFFFFF;
+	margin-top: 20rpx;
+}
+.bottom-func{
+	font-weight: bold;
+	margin: 110rpx 40rpx;
+	font-size: 25rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.bottom-func view:first-child{
+	color: #F76260;
+}
+

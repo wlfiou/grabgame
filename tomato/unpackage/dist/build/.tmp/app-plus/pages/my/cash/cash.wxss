@@ -1,0 +1,103 @@
+
+.tixian-tit {
+	position: absolute;
+	top: 14px;
+	left: 12px;
+	z-index: 2;
+}
+.t-common-font {
+	font-weight: bold;
+}
+.content {
+	padding: 0 10rpx;
+}
+.balance ._p {
+	font-size: 14px;
+	color: #A0A0A0;
+}
+.commitBtn {
+	background: #fc3a39;
+	color: #fff;
+}
+.paytype .pays ._span {
+	color: #000;
+	font-size: 14px;
+}
+.pays image {
+	width: 30rpx;
+	position: relative;
+	top: 6rpx;
+	margin-right: 10rpx;
+}
+.paytype {
+	height: 25px;
+	padding: 7px 12px;
+	background: #FFF;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.paytype .text:last-child {
+	font-size: 12px;
+	line-height: 1;
+	color: #6F6F6F;
+}
+.bradius {
+	border-radius: 10rpx;
+	border: 1px solid #eee;
+}
+.active {
+	border-color: #fc3a39;
+}
+.t-cell {
+	/* height: 140upx; */
+	font-family: Cursive;
+	font-weight: bold;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	background: #fff;
+	padding: 0;
+}
+.cell-textinfo {
+	margin-left: 10rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.cell-textinfo view:first-child {
+	font-size: 40rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	margin-bottom: 10rpx;
+}
+.cell-textinfo view:last-child {
+	font-size: 20rpx;
+	height: 40rpx;
+	color: #999999;
+}
+.cell-right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	text-align: right;
+	padding-right: 10rpx;
+	/* justify-content: flex-end;
+	flex-grow: 3; */
+}
+.cell-right view:first-child {
+	color: #FC4B2D;
+	font-weight: bold;
+	font-size: 40rpx;
+}
+.cell-right view:last-child {
+	color: #999;
+}
+

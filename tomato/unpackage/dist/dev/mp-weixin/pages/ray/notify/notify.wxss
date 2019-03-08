@@ -1,0 +1,33 @@
+
+.t-cell{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	font-weight: bold;
+	-webkit-box-align:start;
+	-webkit-align-items:flex-start;
+	    -ms-flex-align:start;
+	        align-items:flex-start;
+	margin-right: 30rpx;
+}
+.t-cell view:first-child{
+	width: 100%;
+	font-size: 40rpx;
+	overflow: hidden; 
+	white-space: nowrap; 
+	-o-text-overflow: ellipsis; 
+	   text-overflow: ellipsis;
+}
+.t-cell view:last-child{
+	width: 100%;
+	line-height: 30rpx;
+	font-size: 26rpx;
+	color: #8f8f94;
+	overflow: hidden; 
+	white-space: nowrap; 
+	-o-text-overflow: ellipsis; 
+	   text-overflow: ellipsis;
+}
+

@@ -1,0 +1,2 @@
+<import src="./rayGameList.vue.wxml" />
+    <template is="7cd5b22a" data="{{ ...$root['0'], $root }}"/>

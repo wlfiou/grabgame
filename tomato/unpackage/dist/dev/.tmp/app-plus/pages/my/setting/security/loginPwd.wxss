@@ -1,0 +1,48 @@
+
+.commitBtn {
+	background: #fc3a39;
+	color: #fff;
+}
+.page {
+	padding: 0 20rpx;
+}
+.page .uni-input{
+	padding-left: 120rpx;
+}
+.topPic>image {
+	width: 250rpx;
+	height: 250rpx;
+}
+.borderRadi {
+	border-radius: 15rpx;
+}
+.uni-form-item {
+	position: relative;
+	background: #fff;
+	border: 1px solid #eee;
+}
+.uni-form-item ._span{
+	position: absolute;
+	top: 26rpx;
+	left: 18rpx;
+	z-index: 2;
+}
+.getcode {
+	position: absolute;
+	right: 18rpx;
+	top: 26rpx;
+	z-index: 2;
+	color: #fc3a39;
+	font-size: 14px;
+	line-height: 1.5;
+	border-bottom: 1px solid #fc3a39;
+}
+.active{
+	border: 1px solid #fc3a39;
+}
+.changeColor{color: #fc3a39;}
+.vertytime {
+	color: #999999;
+	border-bottom: 0;
+}
+

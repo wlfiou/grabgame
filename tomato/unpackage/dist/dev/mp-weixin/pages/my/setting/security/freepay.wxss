@@ -1,0 +1,33 @@
+
+.commitBtn {
+	background: #fc3a39;
+	color: #fff;
+}
+.page {
+	padding: 0 20rpx;
+}
+.uni-form-item {
+	position: relative;
+	background: #fff;
+}
+.borderRadi {
+	border-radius: 10rpx;
+}
+.code{
+	position: relative;
+}
+.code ._span{
+	position: absolute;
+	right: 18rpx;
+	top: 26rpx;
+	z-index: 2;
+	color: #fc3a39;
+	font-size: 14px;
+	line-height: 1.5;
+	border-bottom: 1px solid #fc3a39;
+}
+.vertytime {
+	color: #999999;
+	border-bottom: 0;
+}
+
